@@ -23,7 +23,7 @@ const Navbar = () => {
             }}>
               <img src={logoosakabenwhite} alt="logo" className="w-12 h-12 object-contain" />
               <p className='text-white text-[18px] font-bold cursor-pointer flex'>
-                <span className='sm:block hidden'>| Rising Sun</span>
+                <span className='sm:block hidden'>| OSAKA-BEN</span>
                 </p>
           </Link>
           <ul className='list-none hidden sm:flex flex-row gap-10'>
