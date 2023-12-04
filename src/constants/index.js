@@ -3,6 +3,10 @@ import {
     reactjs,
     tailwind,
     nodejs,
+    typescript,
+    redux,
+    redis,
+    postgresql,
     git,
     figma,
     meta,
@@ -33,7 +37,7 @@ import {
     },
   ];
   
-  const technologies = [
+  const technologiesFront = [
     {
       name: "JavaScript",
       icon: javascript,
@@ -47,15 +51,37 @@ import {
       icon: tailwind,
     },
     {
+      name: "Typescript",
+      icon: typescript,
+    },
+    {
+      name: "Redux",
+      icon: redux,
+    },
+  ];
+
+  const technologiesBack = [
+    {
       name: "Node JS",
       icon: nodejs,
     },
     {
-      name: "git",
+      name: "PostgreSQL",
+      icon: postgresql,
+    },
+    {
+      name: "Redis",
+      icon: redis,
+    },
+  ];
+
+  const tools = [
+    {
+      name: "Git",
       icon: git,
     },
     {
-      name: "figma",
+      name: "Figma",
       icon: figma,
     },
   ];
@@ -208,4 +234,4 @@ import {
     },
   ];
   
-  export { technologies, experiences, testimonials, projects };
+  export { technologiesFront, technologiesBack, tools, experiences, testimonials, projects };
