@@ -8,10 +8,25 @@ import { logoosakabenwhite, menu, close } from '../assets';
 const Navbar = () => {
   const [active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+
+
+  useEffect(() => {
+    const onScroll = () => {
+      const scrolled = window.scrollY > 50;
+      setIsScrolled(scrolled);
+    };
+    window.addEventListener('scroll', onScroll);
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+    };
+  }, []);
+  
 
   return (
     <nav className={`
-      ${styles.paddingX}
+      ${styles.paddingX}${isScrolled ? 'bg-white dark:bg-[#000] dark:bg-opacity-100 dark:border-b' : 'bg-transparent'}
       w-full flex items-center py-5 fixed top-0 z-20`}>
         <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
           <Link 

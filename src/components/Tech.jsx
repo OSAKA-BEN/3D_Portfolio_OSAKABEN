@@ -1,6 +1,5 @@
 import React from "react";
 
-import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { technologiesFront, technologiesBack, tools } from "../constants";
 
