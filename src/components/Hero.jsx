@@ -7,9 +7,9 @@ const Hero = () => {
     <section className='relative w-full h-screen mx-auto' style={{ backgroundImage: 'url("src/assets/hero-bg.jpg")', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         <div>
-          <h1 className={`${styles.heroHeadText} text-secondary`}>Hi, I'm <span className='text-accent'>OSAKABEN</span></h1>
+          <h1 className={`${styles.heroHeadText} text-secondary`}>Hi, I'm <span className='text-accent'>Benjamin GUIGANTON</span></h1>
           <p className={`${styles.heroSubText} mt-2`}>
-            I develop design website and web applications
+            Web & Mobile Developper
           </p>
         </div>
       </div>

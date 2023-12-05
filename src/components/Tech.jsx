@@ -1,11 +1,13 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 import { SectionWrapper } from "../hoc";
 import { technologiesFront, technologiesBack, tools } from "../constants";
+import { fadeIn } from "../utils/motion";
 
 const Tech = () => {
   return (
-    <div className='flex flex-col items-center'>
+    <motion.div variants={fadeIn("up", "spring", 0, 0.75)}  className='flex flex-col items-center'>
       <p className='text-description md:text-[30px] text-[15px] p-4'>FRONTEND</p>
       <div className='flex flex-row flex-wrap justify-center gap-10'>
         {technologiesFront.map((technology) => (
@@ -39,7 +41,7 @@ const Tech = () => {
           </div>
         ))}
       </div>
-  </div>
+    </motion.div>
   );
 };
 

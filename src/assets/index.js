@@ -13,11 +13,11 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import redis from "./tech/redis.png";
 import postgresql from "./tech/postgresql.png";
+import sequelize from "./tech/sequelize.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import snef from "./company/snef.png";
+import barillec from "./company/barillec.jpeg";
+import oclock from "./company/oclock.jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -39,10 +39,10 @@ export {
   tailwind,
   typescript,
   postgresql,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  sequelize,
+  snef,
+  barillec,
+  oclock,
   carrent,
   jobit,
   tripguide,
