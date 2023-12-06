@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
-import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import github from "./github.png";
 
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -19,9 +19,6 @@ import snef from "./company/snef.png";
 import barillec from "./company/barillec.jpeg";
 import oclock from "./company/oclock.jpeg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import logoosakabenwhite from "./logoosakabenwhite.png";
 
 export {
@@ -43,8 +40,5 @@ export {
   snef,
   barillec,
   oclock,
-  carrent,
-  jobit,
-  tripguide,
   logoosakabenwhite,
 };
