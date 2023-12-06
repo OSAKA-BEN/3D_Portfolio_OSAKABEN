@@ -9,7 +9,7 @@ const Tech = () => {
   return (
     <motion.div variants={fadeIn("up", "spring", 0, 0.75)}  className='flex flex-col sm:flex-row w-full gap-4'>
       <div className='flex flex-col flex-1'>
-        <p className='text-title md:text-[30px] text-[24px] text-center p-4'>FRONTEND</p>
+        <p className='text-description md:text-[30px] text-[24px] text-center p-4'>FRONTEND</p>
         <div className='flex flex-row flex-wrap gap-5 justify-center'>
           {technologiesFront.map((technology) => (
             <div className='group w-28 h-28 p-4 hover:border hover:cursor-pointer hover:scale-110 rounded-2xl bg-[#202329] overflow-hidden relative' key={technology.name}>
@@ -23,7 +23,7 @@ const Tech = () => {
       </div>
 
       <div className='flex flex-col flex-1'>
-        <p className='text-title md:text-[30px] text-[24px] text-center p-4'>BACKEND</p>
+        <p className='text-description md:text-[30px] text-[24px] text-center p-4'>BACKEND</p>
         <div className='flex flex-row flex-wrap gap-5 justify-center'>
           {technologiesBack.map((technology) => (
             <div className='group w-28 h-28 p-4 hover:border hover:cursor-pointer hover:scale-110 rounded-2xl bg-[#202329] overflow-hidden relative' key={technology.name}>
@@ -37,7 +37,7 @@ const Tech = () => {
       </div>
 
       <div className='flex flex-col flex-1'>
-        <p className='text-title md:text-[30px] text-[24px] text-center p-4'>TOOLS</p>
+        <p className='text-description md:text-[30px] text-[24px] text-center p-4'>TOOLS</p>
         <div className='flex flex-row flex-wrap gap-5 justify-center'>
           {tools.map((technology) => (
             <div className='group w-28 h-28 p-4 hover:border hover:cursor-pointer hover:scale-110 rounded-2xl bg-[#202329] overflow-hidden relative' key={technology.name}>
