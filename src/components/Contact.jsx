@@ -33,9 +33,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Benjamin GUIGANTON",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "benjamin.guiganton@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -83,7 +83,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="What's your name ?"
-              className='bg-card py-4 px-6 placeholder:text-description text-white rounded-lg outline-none border-none font-medium'
+              className='border-b py-4 px-6 bg-transparent text-white rounded-lg outline-none font-medium focus:border focus:border-secondary focus:ring focus:ring-secondary'
             />
           </label>
           <label className='flex flex-col'>
@@ -94,7 +94,7 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What's your email ?"
-              className='bg-card py-4 px-6 placeholder:text-description text-white rounded-lg outline-none border-none font-medium'
+              className='border-b py-4 px-6 bg-transparent text-white rounded-lg outline-none font-medium focus:border focus:border-secondary focus:ring focus:ring-secondary'
             />
           </label>
           <label className='flex flex-col'>
@@ -105,13 +105,13 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder='What do you want to say ?'
-              className='bg-card py-4 px-6 placeholder:text-description text-white rounded-lg outline-none border-none font-medium'
+              className='border-b py-4 px-6 bg-transparent text-white rounded-lg outline-none font-medium focus:border focus:border-secondary focus:ring focus:ring-secondary'
             />
           </label>
 
           <button
             type='submit'
-            className='bg-card py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            className='border hover:bg-white hover:text-black py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary transition duration-400 ease-in-out'
           >
             {loading ? "Sending..." : "Send"}
           </button>
