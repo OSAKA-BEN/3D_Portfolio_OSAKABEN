@@ -22,7 +22,7 @@ const Hero = () => {
           <a href='https://www.linkedin.com/in/benjamin-guiganton-607123272/' target='_blank' rel='noopener noreferrer' className='cursor-pointer'><img src='src/assets/linkdin.png' alt='linkdin' className='w-[40px]' /></a>
           <a href='https://github.com/OSAKA-BEN' rel='noopener noreferrer' target='_blank' className='cursor-pointer'><img src='src/assets/github.png' alt='github' className='w-[40px]' /></a>
           <a href='https://www.instagram.com/osaka_ben/' rel='noopener noreferrer' target='_blank' className='cursor-pointer'><img src='src/assets/instagram.png' alt='instagram' className='w-[40px]' /></a>
-          <a href='path_to_CV.pdf' download='CV_Benjamin_Guiganton'>CV</a>
+          <a href='src/assets/CV-Benjamin GUIGANTON-2023-NV.pdf' download='CV_Benjamin_Guiganton'><img src='src/assets/cv.png' alt='cv' className='w-[40px]' /></a>
         </div>
 
         {/* <a href="#about">
