@@ -80,7 +80,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-description text-[17px] max-w-3xl leading-[30px]'
         >
-          Each project reflects my ability to solve problems, work with different technologies and manage projects effectively. I am always looking for new challenges and opportunities to learn.
+          Each project reflects my ability to solve problems, work with different technologies and manage projects effectively.
         </motion.p>
       </div>
 
