@@ -19,6 +19,10 @@ import snef from "./company/snef.png";
 import barillec from "./company/barillec.jpeg";
 import oclock from "./company/oclock.jpeg";
 
+import chezg from "./work/chezg.jpg";
+import bonheurenb from "./work/bonheurenb.jpg";
+import oworld from "./work/oworld.jpg";
+
 import logoosakabenwhite from "./logoosakabenwhite.png";
 
 export {
@@ -41,4 +45,7 @@ export {
   barillec,
   oclock,
   logoosakabenwhite,
+  chezg,
+  bonheurenb,
+  oworld,
 };

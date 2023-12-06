@@ -24,7 +24,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-[#1d1836] p-5 rounded-2xl sm:w-[360px] w-full hover:border'
+        className='bg-[#1d1836] p-4 rounded-2xl sm:w-[360px] w-full hover:border'
       >
         <div className='relative w-full h-[230px]'>
           <img
@@ -36,13 +36,13 @@ const ProjectCard = ({
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className='bg-black w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:border'
+              className='w-10 h-10 flex justify-center items-center '
             >
-              <img
+            { source_code_link ? <img
                 src={github}
                 alt='source code'
-                className='w-full h-full object-contain'
-              />
+                className='w-full h-full object-contain cursor-pointer hover:border rounded-full bg-black'
+              /> : null}
             </div>
           </div>
         </div>
@@ -56,7 +56,7 @@ const ProjectCard = ({
           {tags.map((tag) => (
             <p
               key={`${name}-${tag.name}`}
-              className={`text-[14px] ${tag.color}`}
+              className={`text-[14px]`}
             >
               #{tag.name}
             </p>
@@ -80,7 +80,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-description text-[17px] max-w-3xl leading-[30px]'
         >
-          Each project is briefly described with links to code repositories. It reflects my ability to solve problems, work with different technologies and manage projects effectively. Have a look at my projects and feel free to contact me if you have any questions.
+          Each project reflects my ability to solve problems, work with different technologies and manage projects effectively. I am always looking for new challenges and opportunities to learn.
         </motion.p>
       </div>
 

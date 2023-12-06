@@ -13,6 +13,9 @@ import {
     snef,
     barillec,
     oclock,
+    chezg,
+    bonheurenb,
+    oworld,
   } from "../assets";
   
   export const navLinks = [
@@ -151,67 +154,84 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Site Application",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
+          name: "Excel",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
+          name: "VBA",
         },
       ],
       image: figma,
-      source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Chez G",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
         {
           name: "react",
-          color: "blue-text-gradient",
         },
         {
           name: "restapi",
-          color: "green-text-gradient",
         },
         {
           name: "scss",
-          color: "pink-text-gradient",
         },
       ],
-      image: figma,
-      source_code_link: "https://github.com/",
+      image: chezg,
+      source_code_link: "",
     },
     {
-      name: "Trip Guide",
+      name: "O'World",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
+          name: "React",
         },
         {
           name: "supabase",
-          color: "green-text-gradient",
         },
         {
           name: "css",
-          color: "pink-text-gradient",
+        },
+      ],
+      image: oworld,
+      source_code_link: "https://github.com/O-clock-Starship/projet-05-o-world-front",
+    },
+    {
+      name: "Bonheurs en B",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "React",
+        },
+        {
+          name: "Vite",
+        },
+        {
+          name: "TailwindCSS",
+        },
+      ],
+      image: bonheurenb,
+      source_code_link: "https://github.com/OSAKA-BEN/Bonheur-en-b",
+    },
+    {
+      name: "In Progress...",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "Figma",
         },
       ],
       image: figma,
-      source_code_link: "https://github.com/",
+      source_code_link: "",
     },
   ];
   
