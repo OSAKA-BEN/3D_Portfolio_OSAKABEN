@@ -138,15 +138,15 @@ import {
       ],
     },
     {
-      title: "Project Manager",
+      title: "Web Developer",
       company_name: "O'Clock",
       icon: oclock,
       iconBg: "#E6DEDD",
       date: "January 2023 - July 2023",
       points: [
-        "Project management related to purchasable electrical features (Study, equipment supply, onboard work).",
-        "Design office (Complete system study: fire detection, CCTV) / Supervision of site preparation and logistics / Implementation of Lean tools and methods / Monitoring of progress and schedule management.",
-        "Programming in VBA, development and application of a management tool.",
+        "A program allowing training in essential technologies in the field, with a focus on JavaScript, a language highly appreciated for its flexibility and the great richness of its ecosystem.",
+        "HTML, CSS, JavaScript, React, Node.js, Express, PostgreSQL, Sequelize, Git.",
+        "Challenges every day to be completed independently, peer programming session and an project to be done as a team at the end of the training and to be presented in front of a jury.",
       ],
     },
   ];
