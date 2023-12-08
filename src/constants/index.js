@@ -13,9 +13,18 @@ import {
     snef,
     barillec,
     oclock,
+    appchantier,
     chezg,
     bonheurenb,
     oworld,
+    japan,
+    youtube,
+    excel,
+    chartjs,
+    framermotion,
+    css,
+    vba,
+    vite,
   } from "../assets";
   
   export const navLinks = [
@@ -95,6 +104,7 @@ import {
       title: "Business Manager",
       company_name: "Groupe SNEF",
       icon: snef,
+      company_url: "https://www.snef.fr/",
       iconBg: "#E6DEDD",
       date: "September 2014 - December 2016",
       points: [
@@ -107,6 +117,7 @@ import {
       title: "Construction Manager",
       company_name: "Groupe SNEF",
       icon: snef,
+      company_url: "https://www.snef.fr/",
       iconBg: "#E6DEDD",
       date: "January 2017 - February 2018",
       points: [
@@ -119,6 +130,7 @@ import {
       title: "Business Manager",
       company_name: "Groupe SNEF",
       icon: snef,
+      company_url: "https://www.snef.fr/",
       iconBg: "#E6DEDD",
       date: "January 2019 - August 2020",
       points: [
@@ -126,9 +138,22 @@ import {
       ],
     },
     {
+      title: "Video Maker",
+      company_name: "Youtube",
+      icon: youtube,
+      company_url: "https://youtu.be/aBgMCxI-r_c",
+      iconBg: "#E6DEDD",
+      date: "Take a look at my past experience",
+      points: [
+        "I took the photos and videos during the construction site and edited the video.",
+        "It was a great experience to learn how to use Adobe Premiere Pro.",
+      ],
+    },
+    {
       title: "Project Manager",
       company_name: "Barillec Marine",
       icon: barillec,
+      company_url: "https://www.barillec-marine.com/",
       iconBg: "#383E56",
       date: "September 2020 - December 2022",
       points: [
@@ -141,6 +166,7 @@ import {
       title: "Web Developer",
       company_name: "O'Clock",
       icon: oclock,
+      company_url: "https://oclock.io/",
       iconBg: "#E6DEDD",
       date: "January 2023 - July 2023",
       points: [
@@ -156,82 +182,111 @@ import {
     {
       name: "Site Application",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "This application developed under VBA makes it possible to process all site data and provide a site management tool. It allows to prepare work, update progress and measure efficiency for the financial monitoring.",
       tags: [
         {
           name: "Excel",
+          icon: excel,
         },
         {
           name: "VBA",
+          icon: vba,
         },
       ],
-      image: figma,
+      image: appchantier,
+      url_site: "src/assets/Professional project presentation Site Management Base - EN.pdf",
     },
     {
       name: "Chez G",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A showcase site developed to train me on React. It allows you to present the restaurant, the menu, the services and the contact details.",
       tags: [
         {
-          name: "react",
+          name: "React",
+          icon: reactjs,
         },
         {
-          name: "restapi",
-        },
-        {
-          name: "scss",
+          name: "Css",
+          icon: css,
         },
       ],
       image: chezg,
       source_code_link: "https://github.com/OSAKA-BEN/Restaurant-jerome",
+      url_site: "https://chezg.fr/",
     },
     {
       name: "O'World",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "This application offers an immersive experience to explore and discover varied information about the planets and different countries of the world",
       tags: [
         {
           name: "React",
+          icon: reactjs,
         },
         {
-          name: "supabase",
+          name: "Vite",
+          icon: vite,
         },
         {
-          name: "css",
+          name: "TailwindCSS",
+          icon: tailwind,
+        },
+        {
+          name: "ChartJS",
+          icon: chartjs,
+        },
+        {
+          name: "Framer Motion",
+          icon: framermotion,
+        },
+        {
+          name: "Redux",
+          icon: redux,
+        },
+        {
+          name: "Redis",
+          icon: redis,
         },
       ],
       image: oworld,
       source_code_link: "https://github.com/O-clock-Starship/projet-05-o-world-front",
+      url_site: "https://oworld.space/",
     },
     {
       name: "Bonheurs en B",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Showcase site created to present a client's lodgings and present the activities of the region.",
       tags: [
         {
           name: "React",
+          icon: reactjs,
         },
         {
           name: "Vite",
+          icon: vite,
         },
         {
           name: "TailwindCSS",
+          icon: tailwind,
         },
       ],
       image: bonheurenb,
       source_code_link: "https://github.com/OSAKA-BEN/Bonheur-en-b",
+      url_site: "https://bonheurenb.com/",
     },
     {
       name: "In Progress...",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "An e-learning platform for learning Japanese online with real monitoring of the user's progress.",
       tags: [
         {
           name: "Figma",
+          icon: figma,
         },
       ],
-      image: figma,
+      image: japan,
       source_code_link: "",
+      url_site: "",
     },
   ];
   

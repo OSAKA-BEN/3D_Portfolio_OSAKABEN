@@ -14,14 +14,23 @@ import typescript from "./tech/typescript.png";
 import redis from "./tech/redis.png";
 import postgresql from "./tech/postgresql.png";
 import sequelize from "./tech/sequelize.png";
+import chartjs from "./tech/chartjs.png";
+import css from "./tech/css.png";
+import excel from "./tech/excel.png";
+import vba from "./tech/vba.png";
+import vite from "./tech/vite.png";
+import framermotion from "./tech/framermotion.svg";
 
 import snef from "./company/snef.png";
 import barillec from "./company/barillec.jpeg";
 import oclock from "./company/oclock.jpeg";
+import youtube from "./company/youtube.png";
 
 import chezg from "./work/chezg.jpg";
 import bonheurenb from "./work/bonheurenb.jpg";
 import oworld from "./work/oworld.jpg";
+import appchantier from "./work/appchantier.jpg";
+import japan from "./work/japan.jpg";
 
 import logoosakabenwhite from "./logoosakabenwhite.png";
 
@@ -48,4 +57,13 @@ export {
   chezg,
   bonheurenb,
   oworld,
+  appchantier,
+  japan,
+  youtube,
+  chartjs,
+  css,
+  excel,
+  vba,
+  vite,
+  framermotion,
 };
