@@ -1,9 +1,10 @@
-import React, { useCallback, useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import { france, japan, unitedkingdom, profile } from "../assets";
 
 
 const About = () => {
@@ -62,9 +63,9 @@ const About = () => {
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview</h2>
         <div className="flex gap-4">
-          <img src="src/assets/france.png" alt="French" className="h-8 rounded cursor-pointer opacity-70" onClick={() => handleLanguageChange('fr')}/>
-          <img src="src/assets/japon.png" alt="Japanese" className="h-8 rounded cursor-pointer opacity-70" onClick={() => handleLanguageChange('jp')} />
-          <img src="src/assets/unitedkingdom.png" alt="English" className="h-8 rounded cursor-pointer opacity-70" onClick={() => handleLanguageChange('en')} />
+          <img src={france} alt="French" className="h-8 rounded cursor-pointer opacity-70" onClick={() => handleLanguageChange('fr')}/>
+          <img src={japan} alt="Japanese" className="h-8 rounded cursor-pointer opacity-70" onClick={() => handleLanguageChange('jp')} />
+          <img src={unitedkingdom} alt="English" className="h-8 rounded cursor-pointer opacity-70" onClick={() => handleLanguageChange('en')} />
         </div>
       </motion.div>
 
@@ -77,7 +78,7 @@ const About = () => {
         >
           {displayedText}
         </motion.p>
-        <img src="src/assets/IMG_6949.jpeg" alt="profile" className="px-4 md:w-1/3 h-80"/>
+        <img src={profile} alt="profile" className="px-4 md:w-1/3 h-80"/>
       </motion.div>
     </>
   );

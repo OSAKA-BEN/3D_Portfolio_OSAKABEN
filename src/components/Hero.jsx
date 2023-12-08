@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
+import { linkdin, github, instagram, cv, cvpdf, bghero } from '../assets';
 
 const AlternatingTyping = ({ texts, delta = 100, pause = 300, onComplete }) => {
   const [currentText, setCurrentText] = useState('');
@@ -97,7 +98,7 @@ const Hero = () => {
   };
 
   return (
-    <section className='relative w-full h-screen mx-auto' style={{ backgroundImage: 'url("src/assets/hero-bg.jpg")', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
+    <section className='relative w-full h-screen mx-auto' style={{ backgroundImage: `url(${bghero})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
       
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         <div>
@@ -116,10 +117,10 @@ const Hero = () => {
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <div className='flex flex-row gap-5 mt-5'>
-            <a href='https://www.linkedin.com/in/benjamin-guiganton-607123272/' target='_blank' rel='noopener noreferrer' className='cursor-pointer'><img src='src/assets/linkdin.png' alt='linkdin' className='w-[40px]' /></a>
-            <a href='https://github.com/OSAKA-BEN' rel='noopener noreferrer' target='_blank' className='cursor-pointer'><img src='src/assets/github.png' alt='github' className='w-[40px]' /></a>
-            <a href='https://www.instagram.com/osaka_ben/' rel='noopener noreferrer' target='_blank' className='cursor-pointer'><img src='src/assets/instagram.png' alt='instagram' className='w-[40px]' /></a>
-            <a href='src/assets/CV-Benjamin GUIGANTON-2023-NV.pdf' download='CV_Benjamin_Guiganton'><img src='src/assets/cv.png' alt='cv' className='w-[40px]' /></a>
+            <a href='https://www.linkedin.com/in/benjamin-guiganton-607123272/' target='_blank' rel='noopener noreferrer' className='cursor-pointer'><img src={linkdin} alt='linkdin' className='w-[40px]' /></a>
+            <a href='https://github.com/OSAKA-BEN' rel='noopener noreferrer' target='_blank' className='cursor-pointer'><img src={github} alt='github' className='w-[40px]' /></a>
+            <a href='https://www.instagram.com/osaka_ben/' rel='noopener noreferrer' target='_blank' className='cursor-pointer'><img src={instagram} alt='instagram' className='w-[40px]' /></a>
+            <a href={cvpdf} download='CV_Benjamin_Guiganton'><img src={cv} alt='cv' className='w-[40px]' /></a>
           </div>
       </div>
 

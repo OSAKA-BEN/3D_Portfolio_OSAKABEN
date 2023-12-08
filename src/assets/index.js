@@ -1,7 +1,19 @@
 import logo from "./logo.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import github from "./github.png";
+
+import github from "./contact/github.png";
+import cv from "./contact/cv.png";
+import cvpdf from "./contact/CV-Benjamin GUIGANTON-2023-NV.pdf";
+import instagram from "./contact/instagram.png";
+import linkdin from "./contact/linkdin.png";
+
+import bghero from "./bghero.jpg";
+
+import france from "./about/france.png";
+import japan from "./about/japon.png";
+import unitedkingdom from "./about/unitedkingdom.png";
+import profile from "./about/IMG_6949.jpeg";
 
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -30,9 +42,11 @@ import chezg from "./work/chezg.jpg";
 import bonheurenb from "./work/bonheurenb.jpg";
 import oworld from "./work/oworld.jpg";
 import appchantier from "./work/appchantier.jpg";
-import japan from "./work/japan.jpg";
+import risingsun from "./work/risingsun.jpg";
 
 import logoosakabenwhite from "./logoosakabenwhite.png";
+
+import siteapp from "./Professional project presentation Site Management Base - EN.pdf"
 
 export {
   logo,
@@ -58,7 +72,7 @@ export {
   bonheurenb,
   oworld,
   appchantier,
-  japan,
+  risingsun,
   youtube,
   chartjs,
   css,
@@ -66,4 +80,14 @@ export {
   vba,
   vite,
   framermotion,
+  cv,
+  cvpdf,
+  instagram,
+  linkdin,
+  bghero,
+  france,
+  japan,
+  unitedkingdom,
+  profile,
+  siteapp,
 };

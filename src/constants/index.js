@@ -17,7 +17,7 @@ import {
     chezg,
     bonheurenb,
     oworld,
-    japan,
+    risingsun,
     youtube,
     excel,
     chartjs,
@@ -25,6 +25,7 @@ import {
     css,
     vba,
     vite,
+    siteapp,
   } from "../assets";
   
   export const navLinks = [
@@ -194,7 +195,7 @@ import {
         },
       ],
       image: appchantier,
-      url_site: "src/assets/Professional project presentation Site Management Base - EN.pdf",
+      url_site: siteapp,
     },
     {
       name: "Chez G",
@@ -284,7 +285,7 @@ import {
           icon: figma,
         },
       ],
-      image: japan,
+      image: risingsun,
       source_code_link: "",
       url_site: "",
     },
