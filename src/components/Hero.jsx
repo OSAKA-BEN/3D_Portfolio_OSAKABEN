@@ -105,9 +105,9 @@ const Hero = () => {
             <AlternatingTyping texts={["console.log('Hello World')", "Hi, I'm Benjamin"]} onComplete={handleAlternatingComplete} />
           </h1>
           {startParagraph && (
-            <p className={`${styles.heroSubText} mt-2`}>
+            <div className={`${styles.heroSubText} mt-2`}>
               <DynamicTyping toRotate={["Web Developer", "Mobile Developer", "Coffee Maker", "Problem Solver", "Hard Worker", "Family Father", "Japanese Speaker"]} maxWords={7} />
-            </p>
+            </div>
           )}
         </div>
       </div>

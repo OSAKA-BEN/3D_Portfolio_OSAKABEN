@@ -69,7 +69,7 @@ const About = () => {
       </motion.div>
 
 
-      <motion.div variants={fadeIn("up", "spring", 0, 0.75)} className="flex flex-col md:flex-row h-80">
+      <motion.div variants={fadeIn("up", "spring", 0, 0.75)} className="flex flex-col md:flex-row h-full">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-4 text-description text-justify text-[17px] max-w-3xl leading-[30px] md:w-2/3'
@@ -77,7 +77,7 @@ const About = () => {
         >
           {displayedText}
         </motion.p>
-        <img src="src/assets/IMG_6949.jpeg" alt="profile" className="px-4 md:w-1/3"/>
+        <img src="src/assets/IMG_6949.jpeg" alt="profile" className="px-4 md:w-1/3 h-80"/>
       </motion.div>
     </>
   );
