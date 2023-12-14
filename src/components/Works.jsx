@@ -25,7 +25,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-[#1d1836] p-4 rounded-2xl sm:w-[360px] w-full hover:border h-[480px]'
+        className='bg-[#1c1c1c] border border-[#333333] p-4 rounded-2xl sm:w-[360px] w-full hover:border hover:border-white h-[480px]'
       >
         <div className='relative w-full h-[230px]'>
           <img
@@ -61,7 +61,7 @@ const ProjectCard = ({
               alt={tag.name}
               className='h-4'
             />
-            <p className='text-description text-[14px]'>{tag.name}</p>
+            <p className='text-description text-[16px]'>{tag.name}</p>
             </div>
           ))}
         </div>

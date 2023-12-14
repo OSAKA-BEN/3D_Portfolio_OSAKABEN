@@ -13,7 +13,7 @@ const Tech = () => {
         <p className='text-description md:text-[30px] text-[24px] text-center p-4'>Front-End</p>
         <div className='flex flex-row flex-wrap gap-5 justify-center'>
           {technologiesFront.map((technology) => (
-            <div className='group w-28 h-28 p-4 hover:border hover:cursor-pointer hover:scale-110 rounded-2xl bg-[#202329] overflow-hidden relative' key={technology.name}>
+            <div className='group w-28 h-28 p-4 hover:border hover:border-white hover:cursor-pointer hover:scale-110 rounded-2xl bg-[#1c1c1c] border border-[#333333] overflow-hidden relative' key={technology.name}>
               <img src={technology.icon} alt={technology.name} className='w-full h-full object-contain' />
               <div className='absolute inset-0 flex items-center justify-center bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
                 <span className='text-white text-sm'>{technology.name}</span>
@@ -27,7 +27,7 @@ const Tech = () => {
         <p className='text-description md:text-[30px] text-[24px] text-center p-4'>Back-End</p>
         <div className='flex flex-row flex-wrap gap-5 justify-center'>
           {technologiesBack.map((technology) => (
-            <div className='group w-28 h-28 p-4 hover:border hover:cursor-pointer hover:scale-110 rounded-2xl bg-[#202329] overflow-hidden relative' key={technology.name}>
+            <div className='group w-28 h-28 p-4 hover:border hover:border-white hover:cursor-pointer hover:scale-110 rounded-2xl bg-[#1c1c1c] border border-[#333333] overflow-hidden relative' key={technology.name}>
               <img src={technology.icon} alt={technology.name} className='w-full h-full object-contain' />
               <div className='absolute inset-0 flex items-center justify-center bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
                 <span className='text-white text-sm'>{technology.name}</span>
@@ -41,7 +41,7 @@ const Tech = () => {
         <p className='text-description md:text-[30px] text-[24px] text-center p-4'>Tools</p>
         <div className='flex flex-row flex-wrap gap-5 justify-center'>
           {tools.map((technology) => (
-            <div className='group w-28 h-28 p-4 hover:border hover:cursor-pointer hover:scale-110 rounded-2xl bg-[#202329] overflow-hidden relative' key={technology.name}>
+            <div className='group w-28 h-28 p-4 hover:border hover:border-white hover:cursor-pointer hover:scale-110 rounded-2xl bg-[#1c1c1c] border border-[#333333] overflow-hidden relative' key={technology.name}>
               <img src={technology.icon} alt={technology.name} className='w-full h-full object-contain' />
               <div className='absolute inset-0 flex items-center justify-center bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
                 <span className='text-white text-sm'>{technology.name}</span>
