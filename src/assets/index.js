@@ -13,7 +13,7 @@ import bghero from "./bghero.jpg";
 import france from "./about/france.png";
 import japan from "./about/japon.png";
 import unitedkingdom from "./about/unitedkingdom.png";
-import profile from "./about/IMG_6949.jpeg";
+import profile from "./about/profile-picture.jpeg";
 
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";

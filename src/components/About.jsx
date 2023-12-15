@@ -73,12 +73,14 @@ const About = () => {
       <motion.div variants={fadeIn("up", "spring", 0, 0.75)} className="flex flex-col md:flex-row h-full">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-4 text-description text-justify text-[17px] max-w-3xl leading-[30px] md:w-2/3'
+          className='mt-4 text-description text-justify text-[17px] max-w-3xl leading-[30px] md:w-2/3 pr-10'
           style={{ whiteSpace: 'pre-wrap' }}
         >
           {displayedText}
         </motion.p>
-        <img src={profile} alt="profile" className="px-4 md:w-1/3 h-80"/>
+        <div className="flex flex-col md:flex-row h-full md:w-1/3 mx-4">
+          <img src={profile} alt="profile" className="rounded-2xl"/>
+        </div>
       </motion.div>
     </>
   );

@@ -9,7 +9,7 @@ module.exports = {
         secondary: "#fff",
         title: "#fff",
         accent: "#05d9e8",
-        description: "#8A939E",
+        description: "#c7c7d9",
         card: "#202329",
       },
       boxShadow: {
