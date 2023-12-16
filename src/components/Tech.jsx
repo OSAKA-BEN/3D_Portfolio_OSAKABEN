@@ -6,7 +6,7 @@ import { technologiesFront, technologiesBack, tools } from "../constants";
 import { fadeIn } from "../utils/motion";
 
 const Tech = () => {
-  
+
   return (
     <motion.div variants={fadeIn("up", "spring", 0, 0.75)}  className='flex flex-col sm:flex-row w-full gap-4'>
       <div className='flex flex-col flex-1'>
