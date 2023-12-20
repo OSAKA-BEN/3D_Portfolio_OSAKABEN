@@ -212,8 +212,8 @@ import {
         },
       ],
       image: chezg,
-      source_code_link: "https://github.com/OSAKA-BEN/Restaurant-jerome",
-      url_site: "https://chezg.fr/",
+      source_code_link: "https://github.com/OSAKA-BEN/chezg",
+      url_site: "https://chezg.vercel.app/",
     },
     {
       name: "O'World",
