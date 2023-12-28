@@ -273,7 +273,7 @@ import {
       ],
       image: bonheurenb,
       source_code_link: "https://github.com/OSAKA-BEN/Bonheur-en-b",
-      url_site: "https://bonheurenb.com/",
+      url_site: "https://bonheur-en-b.vercel.app/",
     },
     {
       name: "In Progress...",
